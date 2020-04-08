@@ -8,4 +8,4 @@
 - Github overview
 - Markdown language for README files
 - JavaScript ES6+ features
-- How to create folders through the Unix Shell
+- How to create folders through the Shell
