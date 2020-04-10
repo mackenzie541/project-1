@@ -21,3 +21,15 @@ function arrMax (arr) {
   });
   return max;
 }
+
+
+// 3D
+let sumEvens = (arr) => {
+  var sum = 0;
+    for (var x of arr){
+      if (x % 2 == 0){
+        sum = sum + x;
+      }
+    }
+    return sum;
+};
