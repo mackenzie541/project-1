@@ -22,6 +22,7 @@ let controller = function() {
     die1 = rollDie();
     die2 = rollDie();
     // increment the roll counter
+    i++;
 
     // log the dice and the counter
       console.log('${die1} ${die2} ${rollCount}');
@@ -29,14 +30,14 @@ let controller = function() {
   } while (die1 + die2 != target);
 
   // update images on web page
-  die1URL = 'images/die${die1}.gif';
+  die1URL = 'images/die$.gif';
   imgElem1 = document.querySelector("#imgElem1");
   imgElem1.setAttribute("src", die1URL);
 
   imgElem2 = document.querySelectorAll("img")[1];
 
   // display number of rolls on web page
-  cheeryMessage = 'You hit your number in ${rollCount} roll${(rollCount == 1)?"":"s"}!';
+  cheeryMessage = 'You hit your number in '${rollCount}' rolls!';
   document.querySelector("div").innerHTML = cheeryMessage;
 
 };

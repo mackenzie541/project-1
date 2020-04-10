@@ -9,3 +9,8 @@
 - Markdown language for README files
 - JavaScript ES6+ features
 - How to create folders through the Shell
+
+![GitHub Logo](/images/github_octocat.png)
+
+
+(https://pages.uoregon.edu/mmcalist/281/)
