@@ -1,6 +1,6 @@
 // jshint esversion: 7
 
-// Requirement 3 b
+// 3B
 let arrAvg = (arr) => {
   let sum = 0;
 
@@ -9,3 +9,15 @@ let arrAvg = (arr) => {
   }
   return sum / arr.length;
 };
+
+
+// 3C
+function arrMax (arr) {
+  var max = arr [0];
+  arr.forEach (x => {
+    if (x > max) {
+      max = x;
+    }
+  });
+  return max;
+}
